@@ -4,11 +4,10 @@
 
 - Alexa López Marcos, B94353
 
-# Script `verificador.sh`
+# Script `verificador`
 
-> El script `verificador.sh`
->
+> El script `verificador.sh` recibe como parámetro el nombre de un archivo e imprime en el stdout los permisos del usuario, grupo y otros.
 
-# Script `permisos.sh`
+# Script `permisos`
 
-> El script `permisos.sh`
+> El script `permisos.sh` recibe como parámetro el nombre de un usuario y el nombre de un grupo, se encarga de verificar si el usuario y grupo existen, si no existen los crea. Asigna los permisos de ejecucion del script `verificador` permitiendo que solo usuarios del nuevo grupo puedan ejecutarlo.
