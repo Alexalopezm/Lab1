@@ -3,6 +3,7 @@
 # Se comprueba que se proporciona un argumento llamado enunciado
 
 if [ $# -ne 1 ]; then
+	echo "Error ingrese el nombre del archivo."
 	echo "Uso: $0 <nombre_archivo>"
 	exit 1
 fi
@@ -12,7 +13,7 @@ name="$1"
 
 # Verificar si el archivo existe
 if [ -e "$name" ]; then
-	echo "EL archivo '$name' existe."
+	echo "El archivo '$name' existe."
 	# Obtener los permisos del archivo
 	permissions=$(stat -c "%A" "$name")
 
