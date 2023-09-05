@@ -10,4 +10,4 @@
 
 # Script `permisos`
 
-> El script `permisos.sh` recibe como parámetro el nombre de un usuario y el nombre de un grupo, se encarga de verificar si el usuario y grupo existen, si no existen los crea. Asigna los permisos de ejecucion del script `verificador` permitiendo que solo usuarios del nuevo grupo puedan ejecutarlo.
+> El script `permisos.sh` recibe como parámetro el nombre de un usuario y el nombre de un grupo, se encarga de verificar si el usuario y grupo existen, si no existen los crea. Asigna los permisos de ejecucion del script `verificador.sh` permitiendo que solo usuarios del nuevo grupo puedan ejecutarlo.
